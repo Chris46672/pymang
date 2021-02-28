@@ -7,6 +7,7 @@ setuptools.setup(
     name="pymang",
     version="0.0.1",
     author="Gum Chris",
+    url="https://github.com/Chris46672/pymang",
     author_email="gumchris46@gmail.com",
     description="A simple file managing package",
     long_description=long_description,
