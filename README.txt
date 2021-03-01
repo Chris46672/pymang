@@ -18,4 +18,4 @@ mg.exit()
 #create a new file
 mg.newf()
 #remove directory
-mg.rmdiry(name)
+'''mg.rmdiry(name)'''
