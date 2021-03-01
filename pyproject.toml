@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+[tool.flit.metadata]
+module = "pymang"
+author = "Gum chris"
+author-email = "gumchris46@gmail.com"
+home-page = "https://github.com/Chris46672/pymang"

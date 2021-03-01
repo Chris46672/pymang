@@ -1,7 +1,5 @@
 import setuptools
 
-with open("README.md","r",encoding="utf-8") as fh:
-    long_description=fh.read()
 
 setuptools.setup(
     name="pymang",
@@ -10,8 +8,9 @@ setuptools.setup(
     url="https://github.com/Chris46672/pymang",
     author_email="gumchris46@gmail.com",
     description="A simple file managing package",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description="A python lib",
+    long_description_content_type="text/plain",
+    include_package_data=True,
     classifiers=[
         "Programming Language::Python::3",
         "License::OSI Approved::MIT License",
